@@ -1,0 +1,11 @@
+@import "./styles/vars.scss";
+@import "./styles/normalize.scss";
+
+.pf-app {
+  display: flex;
+  flex-direction: column;
+
+  .page {
+    margin: 20px 10%;
+  }
+}

@@ -1,0 +1,21 @@
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  nav {
+    display: contents;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .logo {
+    font-size: 5rem;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    font-family: var(--ff-en-primary);
+    grid-column: 6 / span 3;
+  }
+}

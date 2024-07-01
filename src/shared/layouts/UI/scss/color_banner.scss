@@ -1,0 +1,10 @@
+$banner-colors: (
+  "project1": #0b4da1,
+  "project2": #fff,
+);
+
+:export {
+  @each $key, $value in $banner-colors {
+    #{unquote($key)}: $value;
+  }
+}
