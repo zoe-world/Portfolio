@@ -43,19 +43,12 @@ const Contents = () => {
 
   return (
     <main id="content" role="main">
-      <div
-        ref={showReelRef}
-        className="reveal-on-scroll reveal-on-scroll__slide"
-      >
+      <div ref={showReelRef}>
         <ShowReel />
       </div>
       {menu.map((v, index) => {
         return (
-          <div
-            key={index}
-            ref={sectionsRefs[index]}
-            className="reveal-on-scroll reveal-on-scroll__slide "
-          >
+          <div key={index} ref={sectionsRefs[index]}>
             <ArticleLayout key={index} content={getComponent(v)} id={v} />
           </div>
         );

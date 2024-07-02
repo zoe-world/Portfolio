@@ -14,6 +14,7 @@ const useScrollPinAnimation = (
   useEffect(() => {
     sections.forEach(({ ref }) => {
       const element = ref.current;
+      console.log(element);
       if (element) {
         ScrollTrigger.create({
           trigger: element,

@@ -1,31 +1,37 @@
 .page {
   height: 100vh;
   position: relative;
-  :first-of-type {
-    background-color: beige;
-  }
-  &:nth-of-type(2) {
-    background-color: #d8a9a9;
-  }
-  &:nth-of-type(3) {
-    background-color: #d5f5ab;
-  }
-  &:last-of-type {
-    background-color: rgb(122, 207, 211);
-  }
 }
 
-// /* 애니메이션 클래스 */
-// .reveal-on-scroll {
-//   opacity: 0;
-//   transition: opacity 1s ease-out, transform 1s ease-out;
-// }
+// showreel
+.show-reel__wrap {
+  .show-reel__title {
+    position: absolute;
+  }
 
-// .reveal-on-scroll__slide {
-//   transform: translateY(20px);
-// }
-
-// .reveal-on-scroll__revealed {
-//   opacity: 1;
-//   transform: translateY(0);
-// }
+  .show-reel__list {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    .show-reel__list__item {
+      flex-grow: 1;
+    }
+    .show-reel__link {
+      position: relative;
+      z-index: 10000;
+      display: block;
+      width: 100%;
+      height: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: transparent;
+      border: none;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}

@@ -42,7 +42,7 @@ export const project1 = {
   date: "2024.04.23 ~ 06.03",
   team: "기여도 100%",
   imgurl:
-    "https://raw.githubusercontent.com/zoe-world/Portfolio/main/src/app/UI/images/NoImage.png",
+    "https://raw.githubusercontent.com/zoe-world/Portfolio/main/src/app/UI/images/project1.webp",
   thumImginfo: {
     imgurl: "",
     subject: "",
