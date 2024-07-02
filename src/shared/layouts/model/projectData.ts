@@ -15,7 +15,5 @@ export const project = [
     tag: project1.tag,
     subject: "읽고 싶은 책 위시리스트 사이트 입니다.",
     type: "solo",
-    gitUrl: "https://github.com/zoe-world/Wishread",
-    depUrl: "https://zoe-world.github.io/Wishread/",
   },
 ];

@@ -1,7 +1,11 @@
 import { ReactNode } from "react";
 
-export interface ChildrenT {
-  children: ReactNode;
+export interface ChildrenType {
+  children?: ReactNode;
+}
+export interface ArticleType {
+  content: ReactNode;
+  id: string;
 }
 export interface ProjectDetailDataT {
   name: string;

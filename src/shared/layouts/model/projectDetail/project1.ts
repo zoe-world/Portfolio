@@ -1,12 +1,19 @@
-import color from "../../UI/scss/color_banner.scss";
+import color from "../../../../app/UI/style.scss";
 /*
   {
   name: "",
   title: "",
   subtext:"",
   bgColor: color.project1,
-  date: "2024.04.23 ~ 06.03",
+  date: "",
   team: "",
+  imgurl: "",
+  thumImginfo: {
+    imgurl: "",
+    subject: "",
+  },
+  gitUrl: "",
+  depUrl: "",
   tag: [""],
   features: [""],
   tools: [
@@ -39,8 +46,8 @@ export const project1 = {
     imgurl: "",
     subject: "",
   },
-  giturl: "",
-  depoloyurl: "",
+  gitUrl: "https://github.com/zoe-world/Wishread",
+  depUrl: "https://zoe-world.github.io/Wishread/",
   tag: ["개인", "반응형", "퍼블리싱"],
   features: [
     "카카오 오픈 API 다루기",

@@ -1,7 +1,7 @@
 import Routing from "pages";
 import { BrowserRouter } from "react-router-dom";
 import { Suspense } from "react";
-import "./index.scss";
+import "./style.scss";
 
 function App() {
   return (
